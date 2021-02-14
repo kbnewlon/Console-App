@@ -6,22 +6,15 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            string color, pluralNoun, celebrity;
+            int[] luckyNumbers = {4, 8, 15, 16, 23, 42 };
+            string[] friends = new string[5];
+            friends[0] = "Jim";
+            friends[1] = "Jim";
+            friends[2] = "Jim";
+            friends[3] = "Jim";
+            friends[4] = "Jim";
 
-            Console.Write("Enter a color: ");
-            color = Console.ReadLine();
-
-            Console.Write("Enter a plural noun: ");
-            pluralNoun = Console.ReadLine();
-
-            Console.Write("Enter a celebrity: ");
-            celebrity = Console.ReadLine();
-
-
-
-            Console.WriteLine("Roses are " + color);
-            Console.WriteLine(pluralNoun + " are blue");
-            Console.WriteLine("I love " + celebrity);
+            Console.WriteLine(luckyNumbers[1]);
 
             Console.ReadLine();
         }
