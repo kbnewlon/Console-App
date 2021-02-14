@@ -6,12 +6,15 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            SayHi("Kayla", 28);
+            int cubedNumber = cube(5);
+            Console.WriteLine(cubedNumber);
             Console.ReadLine();
         }
-        static void SayHi(string name, int age)
+
+        static int cube(int num)
         {
-            Console.WriteLine("Hello " + name + " you are " + age);
+            int result = num * num * num;
+            return result;
         }
     }
      
