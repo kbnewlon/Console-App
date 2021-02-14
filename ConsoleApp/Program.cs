@@ -6,13 +6,8 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.Write("Enter your age: ");
-            //Console.WriteLine("Hello " + name);
-            string age = Console.ReadLine();
-            Console.WriteLine("Hello " + name + " you are " + age);
-
+            int num = Convert.ToInt32("45");
+            Console.WriteLine(num + 6);
             Console.ReadLine();
         }
     }
