@@ -6,16 +6,20 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            int cubedNumber = cube(5);
-            Console.WriteLine(cubedNumber);
+            bool isFemale = false;
+
+            if (isFemale)
+            {
+                Console.WriteLine("You are a badass");
+            } else
+            {
+                Console.WriteLine("You are not a badass");
+            }
+
             Console.ReadLine();
         }
 
-        static int cube(int num)
-        {
-            int result = num * num * num;
-            return result;
-        }
+       
     }
      
 }
