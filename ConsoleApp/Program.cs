@@ -6,10 +6,9 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-
-            string phrase = "hello hello hello";
-
-            Console.WriteLine( phrase.Contains("hello") );
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
 
             Console.ReadLine();
         }
