@@ -7,12 +7,15 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
 
-            int index = 6;
-            do
+            string secretWord = "giraffe";
+            string guess = "";
+
+            while(guess != secretWord)
             {
-                Console.WriteLine(index);
-                index++;
-            } while (index <= 5) ;
+                Console.Write("Enter guess: ");
+                guess = Console.ReadLine();
+            }
+            Console.Write("You win!");
 
                 Console.ReadLine();
         }
