@@ -7,36 +7,17 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
 
-            string secretWord = "giraffe";
-            string guess = "";
-            int guessCount = 0;
-            int guessLimit = 3;
-            bool outOfGuesses = false;
+            //int i = 1;
+            //while (i <= 5)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
 
-            while(guess != secretWord && !outOfGuesses)
+            for (int i = 1; i <= 5; i++)
             {
-                if (guessCount< guessLimit)
-                {
-                    Console.Write("Enter guess: ");
-                    guess = Console.ReadLine();
-                    guessCount++;
-                }
-                else
-                {
-                    outOfGuesses = true;
-                }
-              
+                Console.WriteLine(i);
             }
-            if (outOfGuesses)
-            {
-                Console.Write("Loserrr");
-            }
-            else
-            {
-                Console.Write("You win!");
-            }
-            
-
                 Console.ReadLine();
         }
 
