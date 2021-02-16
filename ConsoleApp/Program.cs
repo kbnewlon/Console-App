@@ -7,20 +7,12 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
 
-            //object is instance of the class
-            // this creates a book object as book1
-            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
-            //book1.title = "Harry Potter";
-            //book1.author = "JK Rowling";
-            //book1.pages = 400;
 
-            Book book2 = new Book("Lord of the Rings", "Tolkein", 700);
-            //book1.title = "Lord of the Rings";
-            //book1.author = "Tolkein";
-            //book1.pages = 700;
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
 
-            Console.WriteLine(book2.title);
-
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
 
             Console.ReadLine();
         }
@@ -33,4 +25,3 @@ namespace ConsoleApp
 }
 
 
-//The main use of constructors is to initialize the private fields of the class while creating an instance for the class.
