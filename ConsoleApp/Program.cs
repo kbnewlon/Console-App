@@ -7,21 +7,21 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
 
-            //int i = 1;
-            //while (i <= 5)
-            //{
-            //    Console.WriteLine(i);
-            //    i++;
-            //}
-
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.WriteLine(i);
-            }
+                Console.WriteLine(GetPow(3, 2));
                 Console.ReadLine();
         }
 
-       
+       static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+
+            for (int i = 0; i < powNum; i++)
+            {
+                result = result * baseNum;
+            }
+
+            return result;
+        }
         
     }
      
